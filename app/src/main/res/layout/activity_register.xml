@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    tools:context=".activity_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/register_name"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="@color/text_white"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/loginField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/hint_login"
+            android:inputType="text"
+            android:text=""
+            app:met_floatingLabel="highlight"
+            app:met_underlineColor="@color/text_grey"
+            app:met_baseColor="@color/text_grey"
+            android:textColor="@color/text_white">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            app:met_floatingLabel="highlight"
+            app:met_underlineColor="@color/text_grey"
+            app:met_baseColor="@color/text_grey"
+            android:textColor="@color/text_white">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:text=""
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="5"
+            app:met_underlineColor="@color/text_grey"
+            app:met_baseColor="@color/text_grey"
+            android:textColor="@color/text_white">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <RadioButton
+            android:id="@+id/authorRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/is_author"
+            android:textColor="@color/text_white"/>
+
+        <com.google.android.material.button.MaterialButton
+            app:cornerRadius="0dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:backgroundTint="@color/background_grey"
+            app:strokeColor="@color/btn_stroke_pink"
+            app:strokeWidth="2dp"
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/register_btn"
+            android:textColor="@color/text_white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

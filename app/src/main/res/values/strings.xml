@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AskMe-app</string>
+    <string name="register_name">Регистрация</string>
+    <string name="hint_login">Логин</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="is_author">Я хочу быть автором</string>
+    <string name="register_btn">Зарегистрироваться</string>
 </resources>
