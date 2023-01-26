@@ -2,6 +2,7 @@ package com.example.askme_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +28,9 @@ public class activity_register extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                doRegistration();
+                startActivity(new Intent(activity_register.this, activity_top3_authors.class));
+                finish();
+                //doRegistration();
             }
         });
     }
