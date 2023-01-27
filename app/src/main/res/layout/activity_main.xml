@@ -17,7 +17,7 @@
         android:textColor="@color/text_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
@@ -38,7 +38,7 @@
         android:textColor="@color/text_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364"
@@ -58,15 +58,16 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.191" />
 
+<!--
     <Button
         android:id="@+id/button"
         android:layout_width="108dp"
-        android:layout_height="43dp"
+        android:layout_height="wrap_content"
         android:text="Войти"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +75,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.65" />
+-->
 
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="@color/background_grey"
+        app:strokeColor="@color/btn_stroke_pink"
+        app:strokeWidth="2dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:textColor="@color/text_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"/>
+
+<!--
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -86,5 +107,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.77" />
+-->
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="0dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:backgroundTint="@color/background_grey"
+        app:strokeColor="@color/btn_stroke_pink"
+        app:strokeWidth="2dp"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="регистрация"
+        android:textColor="@color/text_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

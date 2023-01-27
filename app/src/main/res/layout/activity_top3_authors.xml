@@ -180,7 +180,7 @@
                             android:text="@string/author1"
                             android:textColor="@color/text_white"
                             android:gravity="center"/>
-
+<!--
                         <TextView
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
@@ -189,6 +189,22 @@
                             android:textColor="@color/text_pink"
                             android:gravity="center"
                             android:layout_marginBottom="20dp"/>
+                            -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnGoBlog1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/background_grey"
+                            android:stateListAnimator="@null"
+                            android:text="Перейти в блог"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_pink"
+                            android:textSize="12sp"
+                            app:cornerRadius="0dp"
+                            app:strokeColor="@color/btn_stroke_pink"
+                            app:strokeWidth="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingHorizontal="1dp"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -212,7 +228,7 @@
                             android:text="@string/author2"
                             android:textColor="@color/text_white"
                             android:gravity="center"/>
-
+<!--
                         <TextView
                             android:id="@+id/textView110"
                             android:layout_width="match_parent"
@@ -221,6 +237,22 @@
                             android:textColor="@color/text_pink"
                             android:gravity="center"
                             android:layout_marginBottom="20dp"/>
+                            -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnGoBlog2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/background_grey"
+                            android:stateListAnimator="@null"
+                            android:text="Перейти в блог"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_pink"
+                            android:textSize="12sp"
+                            app:cornerRadius="0dp"
+                            app:strokeColor="@color/btn_stroke_pink"
+                            app:strokeWidth="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingHorizontal="1dp"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -243,7 +275,7 @@
                             android:text="@string/author3"
                             android:textColor="@color/text_white"
                             android:gravity="center"/>
-
+<!--
                         <TextView
                             android:id="@+id/textView1100"
                             android:layout_width="match_parent"
@@ -252,6 +284,22 @@
                             android:textColor="@color/text_pink"
                             android:gravity="center"
                             android:layout_marginBottom="20dp"/>
+                            -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnGoBlog3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/background_grey"
+                            android:stateListAnimator="@null"
+                            android:text="Перейти в блог"
+                            android:textAllCaps="false"
+                            android:textColor="@color/text_pink"
+                            android:textSize="12sp"
+                            app:cornerRadius="0dp"
+                            app:strokeColor="@color/btn_stroke_pink"
+                            app:strokeWidth="0dp"
+                            android:paddingTop="0dp"
+                            android:paddingHorizontal="1dp"/>
                     </LinearLayout>
 
                 </LinearLayout>
