@@ -6,4 +6,7 @@
     <string name="hint_password">Пароль</string>
     <string name="is_author">Я хочу быть автором</string>
     <string name="register_btn">Зарегистрироваться</string>
+    <string name="author1">Автор 1</string>
+    <string name="author2">Автор 2</string>
+    <string name="author3">Автор 3</string>
 </resources>
