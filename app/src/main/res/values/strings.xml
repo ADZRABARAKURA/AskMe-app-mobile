@@ -9,4 +9,5 @@
     <string name="author1">Автор 1</string>
     <string name="author2">Автор 2</string>
     <string name="author3">Автор 3</string>
+    <string name="hint_login_or_email">Логин или email</string>
 </resources>
