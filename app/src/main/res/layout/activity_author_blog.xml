@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_author_blog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/background_grey"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_camera"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/author1"
+                    android:textColor="@color/text_grey"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Род занятий"
+                    android:textColor="@color/text_grey"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"/>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/btn_stroke_pink"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 подписчиков"
+                    android:textColor="@color/text_grey"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0,00 руб/мес"
+                    android:textColor="@color/text_grey"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"/>
+<!--
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+                -->
+                <com.google.android.material.button.MaterialButton
+                    app:cornerRadius="0dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:backgroundTint="@color/btn_stroke_pink"
+                    app:strokeColor="@color/btn_stroke_pink"
+                    app:strokeWidth="0dp"
+                    android:id="@+id/btnSubscribe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:text="Подписаться"
+                    android:textColor="@color/text_white"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="0dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/background_grey"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Об авторе"
+                    android:textColor="@color/text_white"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:background="@color/btn_stroke_pink"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Я начинающий стример, так же делаю интересные короткие видео"
+                    android:textColor="@color/text_white"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Чтобы увидеть этот пост, необходимо подписаться"
+                android:textColor="@color/text_white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                app:srcCompat="@android:drawable/presence_video_busy" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
