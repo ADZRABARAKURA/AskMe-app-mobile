@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.499"
         app:met_baseColor="@color/text_grey"
         app:met_floatingLabel="highlight"
-        app:met_minCharacters="5"
+
         app:met_underlineColor="@color/text_grey">
 
     </com.rengwuxian.materialedittext.MaterialEditText>
