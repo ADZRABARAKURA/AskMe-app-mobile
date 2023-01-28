@@ -27,5 +27,21 @@ public class activity_top3_authors extends AppCompatActivity {
                 finish();
             }
         });
+
+        btnGoBlog2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(activity_top3_authors.this, activity_author_blog_2.class));
+                finish();
+            }
+        });
+
+        btnGoBlog3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(activity_top3_authors.this, activity_author_blog_3.class));
+                finish();
+            }
+        });
     }
 }

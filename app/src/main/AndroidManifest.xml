@@ -12,6 +12,12 @@
         android:theme="@style/Theme.AskMeapp"
         tools:targetApi="31">
         <activity
+            android:name=".activity_author_blog_3"
+            android:exported="false" />
+        <activity
+            android:name=".activity_author_blog_2"
+            android:exported="false" />
+        <activity
             android:name=".activity_author_blog"
             android:exported="false" />
         <activity
